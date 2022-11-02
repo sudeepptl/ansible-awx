@@ -19,7 +19,7 @@
  
     - name: Install JAVA
       yum:
-        name: default-jdk
+        name: java-1.8.0-openjdk
         state: present
  
  
